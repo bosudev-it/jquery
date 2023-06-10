@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome to our website</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css" media="all" />
+</head>
+<body>
+	
+	<div class="content">
+		<h2>Web design</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+		
+		<h2>Web development</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500y. Lorem Ipsum has been the industry's standard dummy text ever since the 1500y. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+		
+		<h2>Wordpress development</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, sum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+		
+		<h2>Graphic design</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.0s, when an unknown printer took a galley of type and scrambled</p>
+		
+		<h2>Digital marketing</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 15try. Lorem Ipsum has been the industry's standard dummy text ever since the 15try. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+	</div>
+	
+	<input type="text" class="complete" />
+	<div class="datepicker">
+		<p>Datepicker</p>
+		<input type="text" class="date" />
+	</div>
+	<script type="text/javascript"src="script.js"></script>
+	<script type="text/javascript"src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		(function($){
+			$(document).ready(function(){
+			
+				$('.content').accordion({collapsible: true, heightStyle:'content'});
+			
+				var naika=['mofiz','kalam','kasem','purnima','puspo','abul','abdul','ahmedh','huma','farjana','jelly','bosudev','jukku','ulfa','nawfa'];
+				
+				$('.complete').autocomplete({'source': naika});
+				$('.date').datepicker();
+			});
+		})(jQuery);
+	
+	</script>
+</body>
+</html>

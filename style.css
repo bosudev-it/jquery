@@ -1,0 +1,49 @@
+.content{
+	width:40%;
+	margin:50px auto;
+}
+h2{
+	background:#6ab04c;
+	font-size:25px;
+	color:#fff;
+	padding:10px;
+	border-radius:10px;
+	text-align:center;
+}
+.ui-accordion .ui-accordion-header{
+	background: #6ab04c;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 125%;
+}
+.ui-accordion .ui-accordion-content{
+	background: #41464199;
+    color: #fff;
+    border-radius: 10px;
+}
+p{
+	text-align:center;
+}
+input{
+	font-size:18px;
+	padding:6px;
+	border:0px solid #758c9773;
+	border-radius:4px;
+	background:#00000042;
+	color:#fff;
+}
+input:focus {
+    outline: none;
+}
+.datepicker{
+	float:right;
+	margin:50px;
+}
+p{
+	font-size:25px;
+}
+
+
+
+
+
